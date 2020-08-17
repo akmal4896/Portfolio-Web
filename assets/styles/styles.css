@@ -11,6 +11,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900 !important;
 }
 
+span {
+    cursor: pointer;
+    color: #f00;
+}
+
+#datalist1 > li, #datalist2 > li, #datalist3 > li, #datalist4 > li, #datalist5 > li, #datalist6 > li, #datalist7 > li, #datalist8 > li, #datalist9 > li {
+		display: none;
+}
+
 .wrapper {
 		background: #E3E3E3;
 }
@@ -257,6 +266,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: -4em;
 }
 
+.my-arrow-div i:hover {
+	background-color: #D2d2d2;
+	border-radius: 7px;
+}
+
+.my-arrow-div i{
+	font-size: 30px;
+}
 
 
 
